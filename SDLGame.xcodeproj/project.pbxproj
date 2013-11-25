@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E889C11843ECE200ADAF19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889C01843ECE200ADAF19 /* Cocoa.framework */; };
+		17E889CB1843ECE200ADAF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E889C91843ECE200ADAF19 /* InfoPlist.strings */; };
+		17E889CD1843ECE200ADAF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E889CC1843ECE200ADAF19 /* main.m */; };
+		17E889D11843ECE200ADAF19 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 17E889CF1843ECE200ADAF19 /* Credits.rtf */; };
+		17E889D41843ECE200ADAF19 /* SGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E889D31843ECE200ADAF19 /* SGAppDelegate.m */; };
+		17E889D71843ECE300ADAF19 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E889D51843ECE300ADAF19 /* MainMenu.xib */; };
+		17E889D91843ECE300ADAF19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E889D81843ECE300ADAF19 /* Images.xcassets */; };
+		17E889E01843ECE300ADAF19 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889DF1843ECE300ADAF19 /* XCTest.framework */; };
+		17E889E11843ECE300ADAF19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889C01843ECE200ADAF19 /* Cocoa.framework */; };
+		17E889E91843ECE300ADAF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E889E71843ECE300ADAF19 /* InfoPlist.strings */; };
+		17E889EB1843ECE300ADAF19 /* SDLGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E889EA1843ECE300ADAF19 /* SDLGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E889E21843ECE300ADAF19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E889B51843ECE200ADAF19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E889BC1843ECE200ADAF19;
+			remoteInfo = SDLGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E889BD1843ECE200ADAF19 /* SDLGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E889C01843ECE200ADAF19 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		17E889C31843ECE200ADAF19 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		17E889C41843ECE200ADAF19 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17E889C51843ECE200ADAF19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17E889C81843ECE200ADAF19 /* SDLGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDLGame-Info.plist"; sourceTree = "<group>"; };
+		17E889CA1843ECE200ADAF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17E889CC1843ECE200ADAF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17E889CE1843ECE200ADAF19 /* SDLGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDLGame-Prefix.pch"; sourceTree = "<group>"; };
+		17E889D01843ECE200ADAF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		17E889D21843ECE200ADAF19 /* SGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGAppDelegate.h; sourceTree = "<group>"; };
+		17E889D31843ECE200ADAF19 /* SGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGAppDelegate.m; sourceTree = "<group>"; };
+		17E889D61843ECE300ADAF19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		17E889D81843ECE300ADAF19 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17E889DE1843ECE300ADAF19 /* SDLGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDLGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E889DF1843ECE300ADAF19 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17E889E61843ECE300ADAF19 /* SDLGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDLGameTests-Info.plist"; sourceTree = "<group>"; };
+		17E889E81843ECE300ADAF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17E889EA1843ECE300ADAF19 /* SDLGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E889BA1843ECE200ADAF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E889C11843ECE200ADAF19 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E889DB1843ECE300ADAF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E889E11843ECE300ADAF19 /* Cocoa.framework in Frameworks */,
+				17E889E01843ECE300ADAF19 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E889B41843ECE200ADAF19 = {
+			isa = PBXGroup;
+			children = (
+				17E889C61843ECE200ADAF19 /* SDLGame */,
+				17E889E41843ECE300ADAF19 /* SDLGameTests */,
+				17E889BF1843ECE200ADAF19 /* Frameworks */,
+				17E889BE1843ECE200ADAF19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E889BE1843ECE200ADAF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E889BD1843ECE200ADAF19 /* SDLGame.app */,
+				17E889DE1843ECE300ADAF19 /* SDLGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E889BF1843ECE200ADAF19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E889C01843ECE200ADAF19 /* Cocoa.framework */,
+				17E889DF1843ECE300ADAF19 /* XCTest.framework */,
+				17E889C21843ECE200ADAF19 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E889C21843ECE200ADAF19 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E889C31843ECE200ADAF19 /* AppKit.framework */,
+				17E889C41843ECE200ADAF19 /* CoreData.framework */,
+				17E889C51843ECE200ADAF19 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		17E889C61843ECE200ADAF19 /* SDLGame */ = {
+			isa = PBXGroup;
+			children = (
+				17E889D21843ECE200ADAF19 /* SGAppDelegate.h */,
+				17E889D31843ECE200ADAF19 /* SGAppDelegate.m */,
+				17E889D51843ECE300ADAF19 /* MainMenu.xib */,
+				17E889D81843ECE300ADAF19 /* Images.xcassets */,
+				17E889C71843ECE200ADAF19 /* Supporting Files */,
+			);
+			path = SDLGame;
+			sourceTree = "<group>";
+		};
+		17E889C71843ECE200ADAF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17E889C81843ECE200ADAF19 /* SDLGame-Info.plist */,
+				17E889C91843ECE200ADAF19 /* InfoPlist.strings */,
+				17E889CC1843ECE200ADAF19 /* main.m */,
+				17E889CE1843ECE200ADAF19 /* SDLGame-Prefix.pch */,
+				17E889CF1843ECE200ADAF19 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17E889E41843ECE300ADAF19 /* SDLGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				17E889EA1843ECE300ADAF19 /* SDLGameTests.m */,
+				17E889E51843ECE300ADAF19 /* Supporting Files */,
+			);
+			path = SDLGameTests;
+			sourceTree = "<group>";
+		};
+		17E889E51843ECE300ADAF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17E889E61843ECE300ADAF19 /* SDLGameTests-Info.plist */,
+				17E889E71843ECE300ADAF19 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E889BC1843ECE200ADAF19 /* SDLGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E889EE1843ECE300ADAF19 /* Build configuration list for PBXNativeTarget "SDLGame" */;
+			buildPhases = (
+				17E889B91843ECE200ADAF19 /* Sources */,
+				17E889BA1843ECE200ADAF19 /* Frameworks */,
+				17E889BB1843ECE200ADAF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDLGame;
+			productName = SDLGame;
+			productReference = 17E889BD1843ECE200ADAF19 /* SDLGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17E889DD1843ECE300ADAF19 /* SDLGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E889F11843ECE300ADAF19 /* Build configuration list for PBXNativeTarget "SDLGameTests" */;
+			buildPhases = (
+				17E889DA1843ECE300ADAF19 /* Sources */,
+				17E889DB1843ECE300ADAF19 /* Frameworks */,
+				17E889DC1843ECE300ADAF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E889E31843ECE300ADAF19 /* PBXTargetDependency */,
+			);
+			name = SDLGameTests;
+			productName = SDLGameTests;
+			productReference = 17E889DE1843ECE300ADAF19 /* SDLGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E889B51843ECE200ADAF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = SiGMan;
+				TargetAttributes = {
+					17E889DD1843ECE300ADAF19 = {
+						TestTargetID = 17E889BC1843ECE200ADAF19;
+					};
+				};
+			};
+			buildConfigurationList = 17E889B81843ECE200ADAF19 /* Build configuration list for PBXProject "SDLGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17E889B41843ECE200ADAF19;
+			productRefGroup = 17E889BE1843ECE200ADAF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E889BC1843ECE200ADAF19 /* SDLGame */,
+				17E889DD1843ECE300ADAF19 /* SDLGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E889BB1843ECE200ADAF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E889CB1843ECE200ADAF19 /* InfoPlist.strings in Resources */,
+				17E889D91843ECE300ADAF19 /* Images.xcassets in Resources */,
+				17E889D11843ECE200ADAF19 /* Credits.rtf in Resources */,
+				17E889D71843ECE300ADAF19 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E889DC1843ECE300ADAF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E889E91843ECE300ADAF19 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E889B91843ECE200ADAF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E889D41843ECE200ADAF19 /* SGAppDelegate.m in Sources */,
+				17E889CD1843ECE200ADAF19 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E889DA1843ECE300ADAF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E889EB1843ECE300ADAF19 /* SDLGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E889E31843ECE300ADAF19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E889BC1843ECE200ADAF19 /* SDLGame */;
+			targetProxy = 17E889E21843ECE300ADAF19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17E889C91843ECE200ADAF19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E889CA1843ECE200ADAF19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17E889CF1843ECE200ADAF19 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E889D01843ECE200ADAF19 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		17E889D51843ECE300ADAF19 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E889D61843ECE300ADAF19 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		17E889E71843ECE300ADAF19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E889E81843ECE300ADAF19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E889EC1843ECE300ADAF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17E889ED1843ECE300ADAF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17E889EF1843ECE300ADAF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDLGame/SDLGame-Prefix.pch";
+				INFOPLIST_FILE = "SDLGame/SDLGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17E889F01843ECE300ADAF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDLGame/SDLGame-Prefix.pch";
+				INFOPLIST_FILE = "SDLGame/SDLGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17E889F21843ECE300ADAF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDLGame.app/Contents/MacOS/SDLGame";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDLGame/SDLGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDLGameTests/SDLGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		17E889F31843ECE300ADAF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDLGame.app/Contents/MacOS/SDLGame";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDLGame/SDLGame-Prefix.pch";
+				INFOPLIST_FILE = "SDLGameTests/SDLGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E889B81843ECE200ADAF19 /* Build configuration list for PBXProject "SDLGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E889EC1843ECE300ADAF19 /* Debug */,
+				17E889ED1843ECE300ADAF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E889EE1843ECE300ADAF19 /* Build configuration list for PBXNativeTarget "SDLGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E889EF1843ECE300ADAF19 /* Debug */,
+				17E889F01843ECE300ADAF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17E889F11843ECE300ADAF19 /* Build configuration list for PBXNativeTarget "SDLGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E889F21843ECE300ADAF19 /* Debug */,
+				17E889F31843ECE300ADAF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E889B51843ECE200ADAF19 /* Project object */;
+}
