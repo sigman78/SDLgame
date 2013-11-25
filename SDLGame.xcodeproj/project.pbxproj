@@ -18,6 +18,9 @@
 		17E889E11843ECE300ADAF19 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889C01843ECE200ADAF19 /* Cocoa.framework */; };
 		17E889E91843ECE300ADAF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E889E71843ECE300ADAF19 /* InfoPlist.strings */; };
 		17E889EB1843ECE300ADAF19 /* SDLGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E889EA1843ECE300ADAF19 /* SDLGameTests.m */; };
+		17E889FA1843F14A00ADAF19 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889F91843F14A00ADAF19 /* SDL2.framework */; };
+		17E889FB1843F19900ADAF19 /* SDL2.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 17E889F91843F14A00ADAF19 /* SDL2.framework */; };
+		17E889FD1843F24B00ADAF19 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889FC1843F24B00ADAF19 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,20 @@
 			remoteInfo = SDLGame;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17E889F81843F04400ADAF19 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				17E889FB1843F19900ADAF19 /* SDL2.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		17E889BD1843ECE200ADAF19 /* SDLGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +67,8 @@
 		17E889E61843ECE300ADAF19 /* SDLGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDLGameTests-Info.plist"; sourceTree = "<group>"; };
 		17E889E81843ECE300ADAF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17E889EA1843ECE300ADAF19 /* SDLGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLGameTests.m; sourceTree = "<group>"; };
+		17E889F91843F14A00ADAF19 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		17E889FC1843F24B00ADAF19 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E889FD1843F24B00ADAF19 /* OpenGL.framework in Frameworks */,
 				17E889C11843ECE200ADAF19 /* Cocoa.framework in Frameworks */,
+				17E889FA1843F14A00ADAF19 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +116,8 @@
 		17E889BF1843ECE200ADAF19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17E889FC1843F24B00ADAF19 /* OpenGL.framework */,
+				17E889F91843F14A00ADAF19 /* SDL2.framework */,
 				17E889C01843ECE200ADAF19 /* Cocoa.framework */,
 				17E889DF1843ECE300ADAF19 /* XCTest.framework */,
 				17E889C21843ECE200ADAF19 /* Other Frameworks */,
@@ -164,6 +187,7 @@
 				17E889B91843ECE200ADAF19 /* Sources */,
 				17E889BA1843ECE200ADAF19 /* Frameworks */,
 				17E889BB1843ECE200ADAF19 /* Resources */,
+				17E889F81843F04400ADAF19 /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -385,9 +409,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sigman/dev/SDLGame,
+					/Users/sigman/dev/SDLGame/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDLGame/SDLGame-Prefix.pch";
 				INFOPLIST_FILE = "SDLGame/SDLGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,9 +428,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sigman/dev/SDLGame,
+					/Users/sigman/dev/SDLGame/Frameworks,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDLGame/SDLGame-Prefix.pch";
 				INFOPLIST_FILE = "SDLGame/SDLGame-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
