@@ -19,7 +19,6 @@
 		17E889E91843ECE300ADAF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17E889E71843ECE300ADAF19 /* InfoPlist.strings */; };
 		17E889EB1843ECE300ADAF19 /* SDLGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E889EA1843ECE300ADAF19 /* SDLGameTests.m */; };
 		17E889FA1843F14A00ADAF19 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889F91843F14A00ADAF19 /* SDL2.framework */; };
-		17E889FB1843F19900ADAF19 /* SDL2.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 17E889F91843F14A00ADAF19 /* SDL2.framework */; };
 		17E889FD1843F24B00ADAF19 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E889FC1843F24B00ADAF19 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				17E889FB1843F19900ADAF19 /* SDL2.framework in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +499,7 @@
 				17E889F01843ECE300ADAF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17E889F11843ECE300ADAF19 /* Build configuration list for PBXNativeTarget "SDLGameTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +508,7 @@
 				17E889F31843ECE300ADAF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
